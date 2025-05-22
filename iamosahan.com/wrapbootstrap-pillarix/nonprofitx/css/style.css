@@ -1,0 +1,401 @@
+/*
+Template Name: Nonprofitx | Charity & Donation Website Template
+Author: Pillarix
+Author URI: https://wrapbootstrap.com/user/pillarix
+Version: 1.0
+*/
+/*
+-- Body
+-- Custom Classes
+-- Side Navbar
+-- Index 
+-- Projects
+-- About
+-- Volunteer
+-- Contact
+-- Post-1
+-- Post-2
+-- Post-3
+-- Admin
+-- Footer
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&amp;family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&amp;family=Homemade+Apple&amp;display=swap');
+
+/* Body */
+body {
+	font-family: 'DM Sans', sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Barlow', sans-serif;
+}
+
+.handwriting-font {
+	font-family: 'Homemade Apple', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #1b1b1b;
+}
+
+a:hover {
+	color: rgb(255, 136, 0);
+}
+
+/* Custom Classes */
+.charity-nav a.nav-link {
+	padding-top: 29px !important;
+	padding-bottom: 29px !important;
+	color: #ffffff !important;
+}
+
+.w-15 {
+	width: 15% !important;
+}
+
+/* Side Navbar */
+.sidebar-nav .nav-link .active {
+	color: rgb(255, 136, 0);
+}
+
+/* Index */
+.bg-homepage {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.provide-img {
+	width: 50px;
+}
+
+.provide {
+	margin-top: -8rem;
+}
+
+.school-video {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/school.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+}
+
+/* Projects */
+.bg-project {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-project.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-volunteer {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* About */
+.bg-about {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.work-img {
+	width: 70px;
+}
+
+/* Volunteer */
+.bg-volunteer-page {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer-page.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Contact */
+.bg-contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-contact.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Post-1 */
+.bg-post-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-1.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.b-icon {
+	height: 25px;
+	width: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Post-2 */
+.bg-post-2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-2.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Post-3 */
+.bg-post-3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-3.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.comment-img {
+	width: 60px;
+}
+
+/* Admin */
+.icon-sm {
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Footer */
+.social-icon {
+	height: 35px;
+	width: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-icon {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .footer-top a {
+	color: #6c757d;
+}
+
+footer .footer-top a:hover {
+	color: rgb(255, 136, 0);
+}
+
+footer .footer-top .social-icon {
+	border: 1px solid #6c757d;
+}
+
+footer .footer-top .social-icon:hover {
+	border: 1px solid rgb(255, 136, 0);
+}
+
+
+
+/* Initial navbar style */
+#mainNavbar {
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrolled navbar style */
+#mainNavbar.scrolled {
+	background: rgba(255, 255, 255, 0.98);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#mainNavbar.scrolled img {
+	height: 50px !important;
+	transition: all 0.3s ease;
+}
+
+#mainNavbar .nav-link {
+	color: #333 !important;
+	font-weight: 500;
+	position: relative;
+}
+
+#mainNavbar .nav-link.active {
+	color: rgb(9, 168, 168) !important;
+}
+
+#mainNavbar .nav-link:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 30px;
+	left: 0;
+	background-color: rgb(255, 136, 0);
+	transition: width 0.3s ease;
+}
+
+#mainNavbar .nav-link:hover:after {
+	width: 100%;
+}
+
+
+.industry-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: rgba(9, 168, 168, 0.8);
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-size: 60%;
+}
+
+.button-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.2rem;
+	margin-top: 2rem;
+	flex-wrap: wrap;
+}
+
+.custom-button {
+	padding: 0.9rem 2rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+	border: none;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	background-size: 200% auto;
+	transition: all 0.35s ease;
+	flex: 1 0 auto;
+	white-space: nowrap;
+}
+
+.custom-button:hover {
+	transform: scale(1.05);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+	color: #000;
+}
+
+.join-button {
+	background-image: linear-gradient(to right, #ff8c00, #ffa500);
+}
+
+.learn-button {
+	background-image: linear-gradient(to right, #00c9c9, #0099a8);
+}
+
+@media (max-width: 576px) {
+	.button-group {
+		display: flex;
+		gap: 0.75rem;
+	}
+
+	.provide {
+		margin-top: -6rem;
+	}
+}
+
+.gallery-item {
+  aspect-ratio: 3/4; /* Stands tall like a portrait */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 2px solid #f1f1f1;
+  background-color: #fff;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-img {
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Lightbox styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 80vh;
+  margin: auto;
+}
+
+.close-lightbox {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  color: white;
+  padding: 16px;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    aspect-ratio: 3/4;
+  }
+}
